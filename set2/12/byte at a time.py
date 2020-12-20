@@ -21,12 +21,6 @@ def brute(detect):
     privblock=b''
     numlen=detect+1+16*2+15  # set numlen
     while True:
-        ok=0
-        if numlen==-1:
-            block+=1
-            numlen=15
-            privblock=unknown
-            unknown=b''
         cipher=encrypt(b'A'*numlen)
         blocks=[cipher[i:i+k] for i in range(0,len(cipher),k)]
         for char in alphatbet:

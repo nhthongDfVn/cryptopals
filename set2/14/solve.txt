@@ -1,0 +1,7 @@
+challenge 12: 
+ECB encrypt(your string||flag,key)
+
+challenge 14: 
+ECB encrypt(prefix||your string||flag,key)
+
+Code same challenge 11
